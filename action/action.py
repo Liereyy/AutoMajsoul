@@ -368,7 +368,7 @@ class GUIInterface:
         # raise Exception(
         #     'GUIInterface.discardTile tile not found. L:', L, 'tile:', tile)
 
-    # 点击“段位场”、“银之间”和“四人南”按钮
+    # 点击“段位场”、“金之间”和“四人南”按钮
     def preClick(self):
         n, m, _ = self.duanweichangImg.shape
         x0, y0 = 1000, 192
@@ -382,13 +382,13 @@ class GUIInterface:
             x, y = x + x0 + m // 2, y + y0 + n // 2
             self.click(x, y)
 
-        n, m, _ = self.yinzhijianImg.shape
+        n, m, _ = self.jinzhijianImg.shape
         img = self.screenImg[y0:y1, x0:x1, :]
-        T = cv2.matchTemplate(img, self.yinzhijianImg, cv2.TM_SQDIFF, mask=self.yinzhijianImg.copy())
+        T = cv2.matchTemplate(img, self.jinzhijianImg, cv2.TM_SQDIFF, mask=self.jinzhijianImg.copy())
         _, _, (x, y), _ = cv2.minMaxLoc(T)
         dst = img[y:y + n, x:x + m].copy()
-        dst[self.yinzhijianImg == 0] = 0
-        if Similarity(self.yinzhijianImg, dst) >= 0.8:
+        dst[self.jinzhijianImg == 0] = 0
+        if Similarity(self.jinzhijianImg, dst) >= 0.8:
             x, y = x + x0 + m // 2, y + y0 + n // 2
             self.click(x, y)
 
@@ -447,7 +447,10 @@ class GUIInterface:
         return tile
 
     def actionChiPeng(self, chiLoc, pengLoc):
+        self.flush_screen_img()
         turn = self.getTurn()
+        self.paihe_buf = (self.getMyPaiHe(), self.getXiaJiaPaiHe(),
+                          self.getDuiJiaPaiHe(), self.getShangJiaPaiHe())
         if len(self.paihe_buf[turn + 1]) == 0:
             return False
         if len(self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1]) == 0:
@@ -934,7 +937,6 @@ class GUIInterface:
 
     # 判断此时是哪一方的出牌时间，根据是中间的黄色闪烁区域
     def getTurn(self):
-        self.flush_screen_img()
         flag = [1020, 495]
         coordinates = [[1067, 420], [952, 352], [853, 420]]  # my = [950, 500],
         # img_cpy = self.screenImg.copy()
