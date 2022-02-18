@@ -193,6 +193,7 @@ class Strategy:
         if res[0][1] >= KANZHANG:  # 只听一种牌
             res.sort(key=lambda record: record[2], reverse=False)  # 按进张到边张的距离升序
         res = [r[0] for r in res]
+        res = res[:1]
         if DEBUG:
             print('after tingpai:', res)
         return res

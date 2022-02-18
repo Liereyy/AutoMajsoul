@@ -131,8 +131,8 @@ class Classify:
                 print(res)
                 print(TileName)
                 cv_show(tmp)
-            if SAVE_CLASSIFY_RES:
-                cv2.imwrite('D:/github_workspace/codes/majsoul/action/classified_imgs/{}_{}.png'
+            if SAVE_CLASSIFY_RES and TileName not in m_dict:
+                cv2.imwrite('D:/github_workspace/AutoMajsoul/action/classified_imgs/{}_{}.png'
                             .format(TileName, time.time()), tmp)
             if TileName in m_dict:
                 h, w = tmp.shape[:2]
@@ -150,6 +150,6 @@ class Classify:
                     print(TileName)
                     cv_show(tmp)
                 if SAVE_CLASSIFY_RES:
-                    cv2.imwrite('D:/github_workspace/codes/majsoul/action/classified_imgs/{}_{}.png'
+                    cv2.imwrite('D:/github_workspace/AutoMajsoul/action/classified_imgs/{}_{}.png'
                                 .format(TileName, time.time()), tmp)
         return TileName, res
