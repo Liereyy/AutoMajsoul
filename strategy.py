@@ -287,7 +287,7 @@ class Strategy:
         doras = [str2id[name] for name in self.doraStack]
         for dname, name in [('0m', '5m'), ('0p', '5p'), ('0s', '5s')]:
             if dname in self.screenInfo.handTiles:  # 手牌中有红dora，如果弃的牌是唯一的5m，则不计红5m的价值
-                if discardTile is not None and discardTile == name and self.handTiles[str2id[name]] != 0:
+                if discardTile is None or (discardTile == name and self.handTiles[str2id[name]] != 0):
                     # 此时handTiles已经减1
                     res += TileValue['dora']
 

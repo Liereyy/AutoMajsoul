@@ -457,6 +457,7 @@ class GUIInterface:
             print('chi/peng empty')
             return False
         lastDiscardTile = (self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1])[-1]
+        # print('chi/peng:', [t[0] for t in self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1]])
         lastDiscardTile = self.deref_dora(lastDiscardTile[0])
 
         print('\033[0;36mchi/peng available: \033[0m: \033[0;31m{}\033[0m -> {}'.format(turn, lastDiscardTile))

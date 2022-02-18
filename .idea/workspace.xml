@@ -2,364 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26dd3b4d-7656-4cf8-926c-641a07aeb574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/action/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo10566.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo10870.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo14677.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo14697.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo16075.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo18052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo20347.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo20379.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo20564.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo20817.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo21080.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo22411.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo23722.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo23943.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo24828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo25184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo29932.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo2998.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo31873.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo32492.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo3521.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo38192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo38791.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo39550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo4075.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo45267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo46136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo48586.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo48627.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo49697.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo52094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo52924.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo53451.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo55940.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo59271.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo59981.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo6007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo6040.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo6321.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo63393.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo65495.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo66253.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo67242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo68794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo72314.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo74898.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo76863.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo78947.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo80069.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo80140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo81141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo82556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo82603.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo83877.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo85022.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo85717.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo86332.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo90192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo9275.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo93706.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo94712.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/huzimo99669.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo10007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo10736.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo10766.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo11265.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo11279.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo11437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo11563.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1202.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo12154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo12308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo12589.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo13020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo13642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo13663.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo14827.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo15314.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo15666.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo15916.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo16253.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo16304.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo16599.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo16715.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo16899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo17184.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo17213.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo17678.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1771.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo17816.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo18013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo18935.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo19367.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo19393.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo1950.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo20369.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo20404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo2069.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo20905.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo21412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo21467.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo2161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo22437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo2268.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo22866.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo23214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo23366.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo23379.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo23391.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo24042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo2448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo2518.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo25717.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo25973.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo26061.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo26101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo26189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo26359.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo26513.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo27422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo28394.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo28918.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo28996.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo29086.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo29239.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo29683.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo29940.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30086.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30363.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30401.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30450.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo30550.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo31402.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo31514.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo32003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo32044.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo32577.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo32841.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo33427.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo33693.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo3379.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo34496.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo34505.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo34603.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo35876.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36309.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36557.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36650.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36714.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36941.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo36950.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo37981.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo39249.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo39676.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo39748.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo40075.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo40678.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo40995.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo41297.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo41599.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo41811.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo41888.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo41937.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo42194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo42380.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo42393.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo4255.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo42752.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43519.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43590.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo43796.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo44411.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo44596.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo44968.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo45152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo45467.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo45831.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo46308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo46501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo47259.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo47492.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo47646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo47966.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo48106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo48321.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo48382.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo48475.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo48807.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo49251.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo50390.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo50495.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo50523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo51541.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo52612.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo52646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo53417.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo53527.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo53718.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo54238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo55249.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo55472.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo56009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo56452.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo56471.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo57195.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo57261.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo5759.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo57646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo58246.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo5841.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo58475.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo58666.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo58856.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo59011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo59674.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo60026.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo60426.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo60429.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo60533.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo60974.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo61083.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo61585.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo6170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo62214.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo62348.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo62355.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo62423.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo63034.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo63344.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo63630.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo6452.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo64536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo64871.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo65308.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo65879.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo66140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo67037.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo67509.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo67890.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo68002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo68496.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo6861.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo68770.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo69142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo69247.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo6946.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo70216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo70457.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo7096.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo71935.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo72245.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo72455.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo72871.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo73140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo73884.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo74118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo74185.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo74461.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo74642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo74958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo75272.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo75953.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo76272.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo76851.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo7723.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77413.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo7742.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77682.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77733.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo77891.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo78091.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo78455.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo78996.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo79391.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo80041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo80053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo8031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo8052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo80621.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo80658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo8182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo81928.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo82123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo82194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo82311.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo82400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo82965.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83029.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83421.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83757.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83776.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo83924.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84379.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84516.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84577.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84677.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo84720.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo85264.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo8553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo85836.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo86488.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo86573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo8714.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo87149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo87521.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo87658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo87738.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo88188.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo88211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo889.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo89784.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo90664.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo91402.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo91422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo91545.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo92455.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo92571.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo92683.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93227.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93430.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93635.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93761.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93957.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo93988.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo94272.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo94276.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo9441.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo94520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo94888.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo95642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo95801.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo96156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo96374.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo9666.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo97340.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo97433.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo97659.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo9810.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo98455.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo99094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo99917.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pictures/zimo99928.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/action.py" beforeDir="false" afterPath="$PROJECT_DIR$/action/action.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -378,12 +22,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23mNRHNxJb2H7O20ttUtAsQYpSd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -595,10 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1645177009000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1">
+      <created>1645177515807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645177515807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version 1" />
     <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
@@ -627,10 +282,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="340" y="0" key="#launch/0.0.1280.689@0.0.1280.689" timestamp="1645174073512" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1645177008088">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1645177513026">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1645177008088" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1645177513026" />
     <state x="503" y="82" key="EnvironmentVariablesDialog" timestamp="1644301869181">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -639,25 +294,25 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="447" y="141" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1645174000528" />
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom" timestamp="1645177356654">
+    <state width="1259" height="414" key="GridCell.Tab.0.bottom" timestamp="1645182083123">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1645177356654" />
+    <state width="1259" height="414" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1645182083123" />
     <state width="1259" height="111" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1642587562110" />
-    <state width="1259" height="203" key="GridCell.Tab.0.center" timestamp="1645177356654">
+    <state width="1259" height="414" key="GridCell.Tab.0.center" timestamp="1645182083123">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1645177356654" />
+    <state width="1259" height="414" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1645182083123" />
     <state width="1259" height="111" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1642587562110" />
-    <state width="1259" height="203" key="GridCell.Tab.0.left" timestamp="1645177356654">
+    <state width="1259" height="414" key="GridCell.Tab.0.left" timestamp="1645182083123">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1645177356654" />
+    <state width="1259" height="414" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1645182083123" />
     <state width="1259" height="111" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1642587562110" />
-    <state width="1259" height="203" key="GridCell.Tab.0.right" timestamp="1645177356654">
+    <state width="1259" height="414" key="GridCell.Tab.0.right" timestamp="1645182083123">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="203" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1645177356654" />
+    <state width="1259" height="414" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1645182083123" />
     <state width="1259" height="111" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1642587562110" />
     <state width="1259" height="208" key="GridCell.Tab.1.bottom" timestamp="1643824152451">
       <screen x="0" y="0" width="1280" height="689" />
@@ -687,9 +342,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="438" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1645173694169" />
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1645177016114">
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1645180254753">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1645177016114" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1645180254753" />
   </component>
 </project>
