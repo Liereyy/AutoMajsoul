@@ -322,6 +322,14 @@ class GUIInterface:
             self.actionZimo()  # 防止空隙时间内出现自摸直接进入舍牌
             if len(self.handTiles) > 0:
                 print('new tile:', self.handTiles[-1][0])
+                # if len(self.paihe_buf[0][0] + self.paihe_buf[0][1]) > 0:
+                #     print('my paihe:', (self.paihe_buf[0][0] + self.paihe_buf[0][1])[-1])
+                # if len(self.paihe_buf[1][0] + self.paihe_buf[1][1]) > 0:
+                #     print('xia paihe:', (self.paihe_buf[1][0] + self.paihe_buf[1][1])[-1])
+                # if len(self.paihe_buf[2][0] + self.paihe_buf[2][1]) > 0:
+                #     print('dui paihe:', (self.paihe_buf[2][0] + self.paihe_buf[2][1])[-1])
+                # if len(self.paihe_buf[3][0] + self.paihe_buf[3][1]) > 0:
+                #     print('shang paihe:', (self.paihe_buf[3][0] + self.paihe_buf[3][1])[-1])
             tile, op, shantin, liqi = self.method.getNextAction()
             print(
                 'tile=\033[0;33m{}\033[0m, shantin=\033[0;33m{}\033[0m, liqi=\033[0;33m{}\033[0m'.format(tile, shantin,
@@ -459,6 +467,8 @@ class GUIInterface:
         lastDiscardTile = (self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1])[-1]
         # print('chi/peng:', [t[0] for t in self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1]])
         lastDiscardTile = self.deref_dora(lastDiscardTile[0])
+        if len(self.paihe_buf[turn+1][0] + self.paihe_buf[turn+1][1]) > 0:
+            print('{} paihe:'.format(turn), self.paihe_buf[turn+1][0] + self.paihe_buf[turn+1][1])
 
         print('\033[0;36mchi/peng available: \033[0m: \033[0;31m{}\033[0m -> {}'.format(turn, lastDiscardTile))
 
@@ -538,7 +548,7 @@ class GUIInterface:
             if name == 'peng':
                 pengLoc = loc
 
-        if self.actionChiPeng(chiLoc, pengLoc):
+        if (chiLoc is not None or pengLoc is not None) and self.actionChiPeng(chiLoc, pengLoc):
             time.sleep(1)
             # 吃碰后手牌画面会变化
             self.flush_screen_img()
