@@ -174,8 +174,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.net_cpy" />
       <item itemvalue="Python.launch" />
+      <item itemvalue="Python.net_cpy" />
       <item itemvalue="Python.strategy_test" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.test2" />

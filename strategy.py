@@ -84,7 +84,7 @@ class Strategy:
         self.maxValue = 0
         self.value = 0
 
-        self.minShanTin = 8  # 不考虑七对和国士
+        self.minShanTin = 8  # 普通型、七对
         # 最小向听时
         self.minMianZi = 0
         self.minDaZi = 0
