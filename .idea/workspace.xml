@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26dd3b4d-7656-4cf8-926c-641a07aeb574" name="Default Changelist" comment="" />
+    <list default="true" id="26dd3b4d-7656-4cf8-926c-641a07aeb574" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AutoMajsoul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/majsoul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="23mNRHNxJb2H7O20ttUtAsQYpSd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,9 +34,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AutoMajsoul" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="AutoMajsoul" sdk-home="E:\ProgramData\Anaconda3\envs\pytorch\python.exe">
+        <option name="mySdkHome" value="E:\ProgramData\Anaconda3\envs\pytorch\python.exe" />
+        <option name="myModuleName" value="AutoMajsoul" />
+      </console-settings>
+    </option>
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySupportQtDebugging" value="false" />
@@ -48,15 +68,15 @@
   </component>
   <component name="RunManager" selected="Python.launch">
     <configuration name="launch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="majsoul" />
+      <module name="AutoMajsoul" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\envs\pytorch\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launch.py" />
@@ -174,8 +194,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.launch" />
       <item itemvalue="Python.net_cpy" />
+      <item itemvalue="Python.launch" />
       <item itemvalue="Python.strategy_test" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.test2" />
@@ -202,7 +222,19 @@
       <option name="presentableId" value="Default" />
       <updated>1642335292913</updated>
     </task>
+    <task id="LOCAL-00001" summary="version 1">
+      <created>1645173671899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645173671899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="24" key="#Inspections" timestamp="1644641331438">
@@ -225,14 +257,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="94" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1643630301366" />
+    <state x="340" y="0" key="#launch" timestamp="1645174073512">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="340" y="0" key="#launch/0.0.1280.689@0.0.1280.689" timestamp="1645174073512" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1645173671119">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1645173671119" />
     <state x="503" y="82" key="EnvironmentVariablesDialog" timestamp="1644301869181">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="503" y="82" key="EnvironmentVariablesDialog/0.0.1280.689@0.0.1280.689" timestamp="1644301869181" />
-    <state x="476" y="145" key="FileChooserDialogImpl" timestamp="1644908709077">
+    <state x="447" y="141" key="FileChooserDialogImpl" timestamp="1645174000528">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="476" y="145" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1644908709077" />
+    <state x="447" y="141" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1645174000528" />
     <state width="1259" height="476" key="GridCell.Tab.0.bottom" timestamp="1645169795466">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -269,14 +309,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1259" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1643824152451" />
-    <state x="144" y="0" key="SettingsEditor" timestamp="1645173287341">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1645174028602">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1645173287341" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1645174028602" />
     <state x="252" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644723325194">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="252" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.689@0.0.1280.689" timestamp="1644723325194" />
+    <state x="438" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645173694169">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="438" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1645173694169" />
     <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1645165638311">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
