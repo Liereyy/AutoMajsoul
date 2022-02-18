@@ -30,7 +30,7 @@ def screenShot():
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         return img
     else:
-        img = cv2.imread('action/scenes/scene_zimo.png')
+        img = cv2.imread('action/scenes/scene_chi.png')
         return img
 
 
@@ -188,6 +188,7 @@ class GUIInterface:
         self.menuImg = load('menu.png')  # 初始菜单界面
         self.duanweichangImg = load('duanweichang.png')
         self.yinzhijianImg = load('yinzhijian.png')
+        self.jinzhijianImg = load('jinzhijian.png')
         self.sirennan = load('sirennan.png')
         self.queding = load('queding.png')
         self.queding2 = load('queding2.png')
@@ -243,6 +244,7 @@ class GUIInterface:
         pyautogui.moveTo(x=x, y=y)
         pyautogui.click(x=x, y=y, button='left', duration=0.2)
         time.sleep(0.1)
+        # time.sleep(1)
         pyautogui.moveTo(x=self.waitPos[0], y=self.waitPos[1])
 
     def screenShot(self):
@@ -254,17 +256,19 @@ class GUIInterface:
         # return cv2.resize(img, Layout.size)
         return screenShot()
 
-    def flush(self, click=False, all=True):
-        if TIME_LOG:
-            flush_begin = time.time()
-            print('flush_begin finish:', flush_begin - self.start_time)
+    def flush_screen_img(self):
         screen_img1 = self.screenShot()
-        time.sleep(0.4)
+        time.sleep(0.3)
         screen_img2 = self.screenShot()
         self.screenImg0 = np.array(screen_img2)  # 原始画面
         self.screenImg = np.minimum(screen_img1, screen_img2)  # 消除高光动画
         self.screenImg2 = np.maximum(screen_img1, screen_img2)  # 增强高光动画
 
+    def flush(self, click=False, all=True):
+        if TIME_LOG:
+            flush_begin = time.time()
+            print('flush_begin finish:', flush_begin - self.start_time)
+        self.flush_screen_img()
         if click:
             pyautogui.click(x=self.waitPos[0], y=self.waitPos[1], button='left', duration=0.2)
             if TIME_LOG:
@@ -305,6 +309,7 @@ class GUIInterface:
             print('screen_info finish:', screen_info - self.start_time)
 
     def run(self):
+        # self.actionChiPeng([1, 1], [1, 1])
         if TIME_LOG:
             run_start = time.time()
             print('run_start finish:', run_start - self.start_time)
@@ -312,9 +317,12 @@ class GUIInterface:
         if TIME_LOG:
             autoButtonClick_time = time.time()
             print('autoButtonClick finish:', autoButtonClick_time - self.start_time)
-        if len(self.handTiles) % 3 == 2 and not clicked and len(self.handTiles) < 15:
+        if len(self.handTiles) % 3 == 2 and len(self.handTiles + self.fulu_buf[0]) >= 14 \
+                and not clicked and len(self.handTiles) < 15:
             self.actionZimo()  # 防止空隙时间内出现自摸直接进入舍牌
-            tile, shantin, liqi = self.method.getNextAction()
+            if len(self.handTiles) > 0:
+                print('new tile:', self.handTiles[-1][0])
+            tile, op, shantin, liqi = self.method.getNextAction()
             print(
                 'tile=\033[0;33m{}\033[0m, shantin=\033[0;33m{}\033[0m, liqi=\033[0;33m{}\033[0m'.format(tile, shantin,
                                                                                                          liqi))
@@ -331,7 +339,6 @@ class GUIInterface:
                 print('liqi_e finish:', liqi_e - self.start_time)
             # time.sleep(random.uniform(0, 0.8))
             self.actionDiscardTile(tile)
-            time.sleep(0.8)
             if TIME_LOG:
                 actionDiscardTile_t = time.time()
                 print('actionDiscardTile finish:', actionDiscardTile_t - self.start_time)
@@ -341,7 +348,7 @@ class GUIInterface:
             print('discard finish:', discard - self.start_time)
 
     def actionDiscardTile(self, tile: str):
-        self.flush(all=False)
+        self.flush_screen_img()
         self.handTiles = self.getHandTiles()
         for t, (x, y) in self.handTiles:
             if t == tile:
@@ -420,7 +427,7 @@ class GUIInterface:
             x, y = x + x0 + m // 2, y + y0 + n // 2
             self.click(x, y)
 
-    def def_dora(self, tile):
+    def deref_dora(self, tile):
         if tile == '0m':
             return '5m'
         if tile == '0p':
@@ -444,12 +451,18 @@ class GUIInterface:
         if len(self.paihe_buf[turn + 1]) == 0:
             return False
         if len(self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1]) == 0:
-            self.flush()
+            print('chi/peng empty')
+            return False
         lastDiscardTile = (self.paihe_buf[turn + 1][0] + self.paihe_buf[turn + 1][1])[-1]
-        lastDiscardTile = self.def_dora(lastDiscardTile)
+        lastDiscardTile = self.deref_dora(lastDiscardTile[0])
 
         print('\033[0;36mchi/peng available: \033[0m: \033[0;31m{}\033[0m -> {}'.format(turn, lastDiscardTile))
-        tile, choice, liqi = self.method.getNextAction(lastDiscardTile)
+
+        if turn == 2:
+            ops = [Operation.NoEffect, Operation.Chi, Operation.Peng]
+        else:
+            ops = [Operation.NoEffect, Operation.Peng]
+        tile, op, choice, liqi = self.method.getNextAction(lastDiscardTile, ops)
         if tile is not None:
             if choice is not None:  # 如果是None则表明强制弃和防守
                 print('tile=\033[0;33m{}\033[0m, choice=\033[0;33m{}\033[0m, liqi=\033[0;33m{}\033[0m'.format(tile,
@@ -457,29 +470,31 @@ class GUIInterface:
                                                                                                               liqi))
             else:
                 print('\033[0;33mdon\'t chi/peng due to defense\033[0m')
+                return False
         else:
             print('\033[0;33mdon\'t chi/peng\033[0m')
+            return False
         print()
 
-        if choice is not None:
+        time.sleep(0.4)
+        self.screenImg = self.screenShot()
+        if op == Operation.NoEffect:
+            return False
+        if op == Operation.Chi:  # 只能吃上家的牌
             choice = [self.cast_dora(ch) for ch in choice]
-
-            time.sleep(0.4)
-            self.screenImg = self.screenShot()
-            if len(choice) != 0:  # 等于0则为碰/杠，否则为吃；只能吃上家的牌
-                if turn == 2 and chiLoc is not None:
-                    self.click(*chiLoc)
-                    time.sleep(1)
-                    self.screenImg = self.screenShot()
-                    self.clickCandidateMeld(choice)
-                    return True
-                return False
-            else:
-                if pengLoc is not None:
-                    self.click(*pengLoc)
-            time.sleep(0.8)
-            self.actionDiscardTile(tile)
-            return True
+            if chiLoc is not None:
+                self.click(*chiLoc)
+                time.sleep(1)
+                self.screenImg = self.screenShot()
+                self.clickCandidateMeld(choice)
+                return True
+            return False
+        elif op == Operation.Peng:
+            if pengLoc is not None:
+                self.click(*pengLoc)
+        time.sleep(0.8)
+        self.actionDiscardTile(tile)
+        return True
 
     def actionZimo(self):
         x0, y0 = 595, 557
@@ -520,7 +535,10 @@ class GUIInterface:
                 pengLoc = loc
 
         if self.actionChiPeng(chiLoc, pengLoc):
-            time.sleep(0.5)
+            time.sleep(1)
+            # 吃碰后手牌画面会变化
+            self.flush_screen_img()
+            self.handTiles = self.getHandTiles()
             return True
         x, y = tiaoguo_loc
         self.click(x, y)
@@ -538,10 +556,10 @@ class GUIInterface:
         # cv2.imshow('img', img_cpy)
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
-
         print('liqi start')
         x0, y0 = 595, 557
         x1, y1 = 1508, 912
+        self.screenImg0 = np.array(self.screenShot())
         img = self.screenImg0[y0:y1, x0:x1, :]
         # cv_show(img)
         res = self.existButton(img, x0, y0, self.liqiImg)
@@ -851,7 +869,9 @@ class GUIInterface:
                     x, y, dx, dy = rect
                     if dx > tileThreshold[0] and dy > tileThreshold[1]:
                         tile_img = raw_img[y:y + dy, x:x + dx, :]
+                        rotated = False
                         if dy < 1.5 * dx and not liqi:  # 横置的牌，后一个条件是是保证识别出多个横置牌不会报错
+                            rotated = True
                             liqi = True
                             tile_img = self.get_image_rotation(tile_img, -90)
                         tileStr, res = self.classify(tile_img)
@@ -860,9 +880,9 @@ class GUIInterface:
                         # cv2.waitKey(0)
                         # cv2.destroyAllWindows()
                         if not liqi:
-                            result.append(tileStr)
+                            result.append((tileStr, rotated))
                         else:
-                            result2.append(tileStr)
+                            result2.append((tileStr, rotated))
                         i = x + dx - start[0]
                 else:
                     fail += 1
@@ -896,14 +916,16 @@ class GUIInterface:
                 x, y, dx, dy = rect
                 if dx > tileThreshold[0] and dy > tileThreshold[1]:
                     tile_img = raw_img[y:y + dy, x:x + dx, :]
+                    rotated = False
                     if dy < ratio_threshold * dx:  # 横置的牌
+                        rotated = True
                         tile_img = self.get_image_rotation(tile_img, -90)
                     # tmp_img = cv2.resize(tile_img, (32, 32))
                     # cv2.imshow('tile', tmp_img)
                     # cv2.waitKey(0)
                     # cv2.destroyAllWindows()
                     tileStr, res = self.classify(tile_img)
-                    result.append(tileStr)
+                    result.append((tileStr, rotated))
                     i = -(x + dx) + start[0]
             else:
                 fail += 1
@@ -912,7 +934,7 @@ class GUIInterface:
 
     # 判断此时是哪一方的出牌时间，根据是中间的黄色闪烁区域
     def getTurn(self):
-        self.flush()
+        self.flush_screen_img()
         flag = [1020, 495]
         coordinates = [[1067, 420], [952, 352], [853, 420]]  # my = [950, 500],
         # img_cpy = self.screenImg.copy()

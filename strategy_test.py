@@ -38,7 +38,7 @@ for i in range(34):
 
         max_jinzhang, names = strategy.get_JinZhang(min_shantin, MASK_FLAG)
 
-        print(idx2str[i], names)
+        print(id2str[i], names)
 
         strategy.handTiles[i] += 1
 

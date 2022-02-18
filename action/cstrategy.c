@@ -535,8 +535,12 @@ void shantin_aux(int depth)
 {
     if (depth >= 34)
     {
-        int shantin = fmin(get_XiangTingShu(mianzi, dazi, quetou), get_QiDUi_XiangTingShu(quetou));
-        
+        int shantin1 = get_XiangTingShu(mianzi, dazi, quetou);
+        int shantin = shantin1;
+        int shantin2 = get_QiDUi_XiangTingShu(quetou);
+        if (shantin2 <= 3 && shantin2 < shantin1)  // 七对向听数<=3才考虑做七对
+            shantin = shantin1;
+
         if (shantin < min_shantin)
         {
             min_mianzi = mianzi;
