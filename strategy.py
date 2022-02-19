@@ -651,7 +651,7 @@ class Strategy:
             if shantin < min_shantin:
                 min_shantin = shantin
 
-        # 防守判断，若有人立直并且自己向听数>=2，考虑弃和；否则跳过
+        # 防守判断，若有人立直并且自己向听数>=1，考虑弃和；否则跳过
         # 只打以下牌：立直方的牌河牌、立直巡数后的所有牌河牌、部分筋牌
         defense_applied, syn_safe_tiles, syn_danger_tiles, liqi_condition = self.defend()
         absolutely_safe_tiles = []

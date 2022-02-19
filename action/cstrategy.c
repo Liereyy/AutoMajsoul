@@ -126,45 +126,43 @@ int max_value;
 
 int value;
 
+// value 是考虑完役种距离、向听后的各种牌型加权结果
 const int 
-dora = 600,
-
-MianZi = 800,
-DaZi = 200,  // 两面搭子
-DaZi2 = 100,  // 坎张搭子
-DaZi3 = 70,  // 边张（坎张）搭子(79)
-DaZi4 = 60,  // 边张（两面）搭子(89)
-QueTou = 100,  // 中张
-QueTou2 = 50,  // 幺九牌
-QueTou3 = 70,  // 字牌
+DaZi = 20,  // 两面搭子
+DaZi2 = 10,  // 坎张搭子
+DaZi3 = 7,  // 边张（坎张）搭子(79)
+DaZi4 = 6,  // 边张（两面）搭子(89)
+QueTou = 10,  // 中张
+QueTou2 = 5,  // 幺九牌
+QueTou3 = 7,  // 字牌
 
 // 复合型，底分，实际价值还要加上所有单张价值，实际计算时只需要一次统计所有手牌单张价值和即可
-AABBC1 = 1000,  // AB是边张
-AABBC2 = 1200,  // AB是中张
-AABCC1 = 1000,
-AABCC2 = 1100,
-ABBCC1 = 1000,
-ABBCC2 = 1200,
+AABBC1 = 100,  // AB是边张
+AABBC2 = 120,  // AB是中张
+AABCC1 = 100,
+AABCC2 = 110,
+ABBCC1 = 100,
+ABBCC2 = 120,
 
-ABCDE = 1200,
-ABCD = 900,
-AABB1 = 150,
-AABB2 = 600,
+ABCDE = 120,
+ABCD = 90,
+AABB1 = 15,
+AABB2 = 60,
 
-AAB1 = 200,
-AAB2 = 300,
-ABB1 = 200,
-ABB2 = 300,
+AAB1 = 20,
+AAB2 = 30,
+ABB1 = 20,
+ABB2 = 30,
 
-s1 = 10,
-s2 = 20,
-s3 = 30,
-s4 = 40,
-s5 = 50,
-s6 = 40,
-s7 = 30,
-s8 = 20,
-s9 = 10
+s1 = 1,
+s2 = 2,
+s3 = 3,
+s4 = 4,
+s5 = 5,
+s6 = 4,
+s7 = 3,
+s8 = 2,
+s9 = 1
 ;
 
 
@@ -176,7 +174,6 @@ void increase_mianzi(int k)
     --handTiles[k+2];
     ++mianzi;
     mianzi_stack[mianzi_top++] = k;
-    value += MianZi;
 }
 
 void decrease_mianzi(int k)
@@ -186,7 +183,6 @@ void decrease_mianzi(int k)
     ++handTiles[k+2];
     --mianzi;
     --mianzi_top;
-    value -= MianZi;
 }
 
 void increase_quetou(int k)
@@ -226,7 +222,6 @@ void increase_anke(int k)
     handTiles[k] -= 3;
     ++mianzi;
     kezi_stack[kezi_top++] = k;
-    value += MianZi;
 }
 
 void decrease_anke(int k)
@@ -234,7 +229,6 @@ void decrease_anke(int k)
     handTiles[k] += 3;
     --mianzi;
     --kezi_top;
-    value -= MianZi;
 }
 
 void increase_dazi(int k) // 两面/边张搭子
